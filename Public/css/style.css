@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+
+    font-family: "roboto";
+    font-size: 12px;
+    margin: 0;
+    border: 0;
+    background-color: #ebebeb;
+
+}
+
+.title-section{
+    font-size: 18px;
+}
+.discount{
+    color:#39b54a;
+    font-size: 16px;
+    display: flex;
+}
+
+.price{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.box-price{
+    font-size: 18px;
+    width: 50%;
+}
+
+
+header{
+    background-color: #EAC926;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.banner-main   {
+    width: 100vw;
+}
+
+
+.truck{
+    color: #39b54a;
+    border-radius: 50%;
+    border: #39b54a 1px solid;
+    padding: 5px;
+    position: absolute;
+    margin: -10px;
+
+
+}
+.visit.ofert{
+    font-size: 24px;
+}
+
+
+.description{
+    font-size: 16px;
+}
+.logo.main{
+    width: 150px;    
+}
+
+
+.photo-product{
+    width: 100%;
+    }
+
+
+
+.burger-menu i{
+    background-color: #03264c;
+    width: 50px;
+    height: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: auto;
+    border-radius: 10%;
+  
+}
+.lupa{
+    size: 10px;
+}
+.nav1, .nav2{
+    display: none;
+ }
+.main-section{
+    width: 90%;
+    margin: auto;
+
+
+
+}
+article{
+    margin-bottom:10px ;
+    background-color: white;
+    text-align: left;
+
+
+}
+.main-article{
+    border-top: solid 2px #ebebeb;
+    padding: 15px;
+}
+
+
+.Ayuda{
+    color: #39b54a;
+
+}
+
+.footer-section{
+    background-color: white;
+    text-align: center;
+    font-family:"roboto";
+    font-size: small;
+    margin: 15px;
+}
+.copyright{
+    color: blue;
+}
+
+
+.form{
+    width: 40vw;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.form input{
+    width: 40vw;
+    height: 60%;
+}
+
+.contenedor-logo{
+    width: 40vw;
+}
+
+.contenedor-logo img{
+    width: 100%;
+    height: 100%;
+
+}
+.Comprar-cuota{
+    width: 100vw;
+    text-align: center;
+}
+
+.description{
+    display: none;
+
+}
+.list-footer {
+    list-style-type: none;
+  }
+  footer i {
+    color: #1259c3;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+  }
+
+  .button{
+    background-color: #03264c;
+  }
+
+@media (min-width:361px){
+    .product{
+        display: flex;
+    }
+
+    .main-article{
+        display: none;
+
+    }
+    .photo-product{
+        width: 100%;
+        }
+    .contenedor-logo{
+        width: 20vw;    
+    }
+    .form{
+        width: 40vw;
+    }
+    .Comprar-cuota{
+        width: 20vw;    
+    }
+    .description{
+        display: block;
+    }
+    .burger-menu{
+       display: none;
+    }
+    .nav1, .nav2 {
+        font-size: 13px;
+        width: 46vw;
+        text-decoration: none;
+    }
+    .nav1 {
+        display: flex;
+        justify-content: start;
+    }
+    .nav2 {
+        display: flex;
+        justify-content: end;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+    }
+    ul li {
+        padding: 5px;
+    }
+    article{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        margin: 3px
+    }
+    .ofertas{
+        text-align: left;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+      }
+}
+
+
+
+
+@media (min-width:760px){
+    .burger-menu{
+        color: olive;
+        width: 60px;
+        margin: auto;
+    }
+    article{
+        width: 25%;
+        
+    }
+}
